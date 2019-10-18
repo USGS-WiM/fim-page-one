@@ -2,9 +2,9 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'fim-pdf-merge',
-  description: 'Service to merge two FIM PDFs',
-  script: 'D:\\Projects\\node-services\\fim-pdf-merge\\merge.js',
+  name:'fim-page-one',
+  description: 'Service to retrieve page one info for fim print product',
+  script: 'D:\\Projects\\Applications\\github\\fim-page-one\\page-one.js',
   nodeOptions: [
     '--harmony',
     '--max_old_space_size=4096'

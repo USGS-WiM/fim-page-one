@@ -2,8 +2,8 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'fim-pdf-merge',
-  script: require('path').join(__dirname,'merge.js')
+  name:'fim-page-one',
+  script: require('path').join(__dirname,'page-one.js')
 });
 
 // Listen for the "uninstall" event so we know when it's done.
