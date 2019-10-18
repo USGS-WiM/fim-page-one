@@ -1,0 +1,25 @@
+{
+  "name": "fim-page-one",
+  "version": "0.0.0",
+  "description": "Simple node service to get page one info for fim print product",
+  "main": "merge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USGS-WiM/fim-page-one.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Nick Estes, WIM (Web Informatics and Mapping, US Geological Survey)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/USGS-WiM/fim-page-one/issues"
+  },
+  "homepage": "https://github.com/USGS-WiM/fim-page-one#readme",
+  "dependencies": {
+    
+  }
+}
